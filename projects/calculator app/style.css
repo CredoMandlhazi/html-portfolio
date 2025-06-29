@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(to right, #e66465, #9198e5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  table {
+    border-collapse: collapse;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  td {
+    padding: 25px;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  td:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  input {
+    width: 100%;
+    font-size: 28px;
+    padding: 15px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  tr:nth-child(2) td {
+    background-color: #f94144; /* red row */
+    color: white;
+  }
+  
+  tr:nth-child(3) td {
+    background-color: #f3722c; /* orange row */
+    color: white;
+  }
+  
+  tr:nth-child(4) td {
+    background-color: #f8961e; /* yellow-orange row */
+    color: white;
+  }
+  
+  tr:nth-child(5) td {
+    background-color: #43aa8b; /* teal-green row */
+    color: white;
+  }
+  
+  tr:nth-child(6) td {
+    background-color: #577590; /* blue row */
+    color: white;
+  }
+  
+  td[colspan="4"] {
+    background-color: #3f88c5;
+    color: #fff;
+  }
+  
+  td[colspan="2"] {
+    background-color: #277da1;
+  }
+  
+  td:last-child {
+    background-color: #277da1;
+  }
+  

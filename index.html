@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Credo Mandlhazi's Profile</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exile&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Manufacturing+Consent&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header-wrapper">
+    <!-- Left Dropdown -->
+    <div class="menu-wrapper dropdown">
+      <a href="#" class="menu-toggle dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Home
+      </a>
+      <ul class="dropdown-menu text-small shadow">
+        <li><a class="dropdown-item active" href="./project.html">Projects</a></li>
+        <li><a class="dropdown-item" href="./hire.html">Hire Me</a></li>
+        <li><a class="dropdown-item" href="./index.html">Home</a></li>
+      </ul>
+    </div>
+
+    <!-- Right Search and Profile -->
+    <div class="search-profile-wrapper">
+      <a href="./index.html" class="profile-toggle">
+        <img src="./images/2023-04-13.jpg" alt="User Profile" class="avatar-img" />
+      </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Jumbotron Section -->
+  <section class="text-center">
+    <img class="bi jumbotron-icon" width="25vh" height="25vh" aria-hidden="true" src="./images/2023-04-13.jpg">
+    <h1 class="jumbotron-title">Credo Danel Mandlhazi</h1>
+    <h2 class="jbd">Full-stack developer</h2>
+    <p class="jumbotron-text">
+      Passionate about crafting end-to-end web applications, I specialize in JavaScript, React, Node.js, and modern backend technologies.
+      I turn ideas into scalable and beautiful digital experiences.
+    </p>
+    <div class="jumbotron-buttons">
+      <a href="./hire.html" class="btn btn-lg px-4 rounded-pill hire-btn">Hire Me</a>
+      <a href="./project.html" class="btn btn-lg px-4 rounded-pill projects-btn">Projects</a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="hire-grid-section">
+    <h2 class="hire-grid-title">Skills</h2>
+    <div class="hire-grid row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-4">
+      <div class="hire-grid-item col d-flex align-items-start">
+        <i class="bi bi-tools icon"></i>
+        <div>
+          <h3 class="item-title">HTML</h3>
+          <p class="item-text">I use HTML5 to build the structure of web pages with clean, semantic markup that ensures accessibility and responsiveness across all devices.</p>    
+        </div>
+      </div>
+
+      <div class="hire-grid-item col d-flex align-items-start">
+        <i class="bi bi-cpu-fill icon"></i>
+        <div>
+          <h3 class="item-title">CSS</h3>
+          <p class="item-text">I style websites using CSS3 and frameworks like Bootstrap and Tailwind. I focus on responsive design, modern layouts, and smooth animations.</p>
+        </div>
+      </div>
+
+      <div class="hire-grid-item col d-flex align-items-start">
+        <i class="bi bi-calendar3 icon"></i>
+        <div>
+          <h3 class="item-title">Javascript</h3>
+          <p class="item-text">I write modern JavaScript (ES6+) to add interactivity, handle events, and manipulate the DOM. I also use libraries like jQuery and frameworks such as React</p>
+        </div>
+      </div>
+
+      <div class="hire-grid-item col d-flex align-items-start">
+        <i class="bi bi-house icon"></i>
+        <div>
+          <h3 class="item-title">Back-End</h3>
+          <p class="item-text">I develop server-side applications using Node.js and Express. I handle APIs, server logic, and integrate front-end and back-end smoothly</p>
+        </div>
+      </div>
+
+      <div class="hire-grid-item col d-flex align-items-start">
+        <i class="bi bi-speedometer2 icon"></i>
+        <div>
+          <h3 class="item-title">Databases</h3>
+          <p class="item-text">I work with both SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) databases to store, retrieve, and manage application data effectively</p>
+        </div>
+      </div>
+
+      <div class="hire-grid-item col d-flex align-items-start">
+        <i class="bi bi-toggles2 icon"></i>
+        <div>
+          <h3 class="item-title">Version Control</h3>
+          <p class="item-text">I use Git and GitHub for code management, collaboration, and maintaining a clean development workflow</p>
+        </div>
+      </div>
+
+      <div class="hire-grid-item col d-flex align-items-start">
+        <i class="bi bi-geo-fill icon"></i>
+        <div>
+          <h3 class="item-title">Deployment</h3>
+          <p class="item-text">I deploy web applications using platforms like Netlify, Vercel, and Heroku, ensuring performance and scalability in production.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <footer class="footer-wrapper">
+    <div class="footer-info">
+      <a href="/" class="footer-logo" aria-label="Bootstrap">
+        <svg class="bi" width="30" height="24" aria-hidden="true">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="footer-text">
+        © 2025 Credo Danel Mandlhazi<br />
+        35 First Avenue<br />
+        Alberton North<br />
+        1449<br />
+        <a href="tel:+27740671759">074 067 1759</a><br/>
+        <a href="email:credo.mandlhazi@gmail.com">credo.mandlhazi@gmail.com</a>
+      </span>
+    </div>
+    <ul class="footer-socials">
+      <li>
+        <a href="https://www.linkedin.com/in/credo-mandlhazi-64b10365/" aria-label="LinkedIn">
+          <img src="./images/linkedin-svgrepo-com.svg" alt="LinkedIn" width="40" height="40" />
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/CredoMandlhazi" aria-label="GitHub">
+          <img src="./images/github.svg" alt="GitHub" width="40" height="40" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/credo.mandlhazi" aria-label="Facebook">
+          <img src="./images/facebook2.svg" alt="Facebook" width="40" height="40" />
+        </a>
+      </li>
+    </ul>
+  </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
